@@ -4,7 +4,7 @@ const app = express();
 
 app.get("/", (req, res) => {
   console.log("User hit the page, Express working");
-  res.send("Home Page!");
+  res.send(`<h1>Home Page- Welcome Page!</h1>`);
 });
 
 app.listen(5000, () => {
